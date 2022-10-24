@@ -1,0 +1,57 @@
+[2022-10-22 18:59:02,128]^;WARNING^;224^;_internal.py^;_log()^; * Debugger is active!
+[2022-10-22 18:59:02,132]^;INFO^;224^;_internal.py^;_log()^; * Debugger PIN: 126-151-744
+[2022-10-22 18:59:28,249]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:28] "GET / HTTP/1.1" 200 -
+[2022-10-22 18:59:30,361]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:30] "GET /logs HTTP/1.1" 200 -
+[2022-10-22 18:59:32,146]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:32] "[33mGET /logs/logs_project/log_2022-10-22-18-59-01.logs HTTP/1.1[0m" 404 -
+[2022-10-22 18:59:34,595]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:34] "[33mGET /logs/logs_project/log_2022-10-05-23-36-52.logs HTTP/1.1[0m" 404 -
+[2022-10-22 18:59:43,592]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:43] "GET /artifact HTTP/1.1" 200 -
+[2022-10-22 18:59:44,323]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:44] "GET /artifact/project/artifact HTTP/1.1" 200 -
+[2022-10-22 18:59:45,964]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:45] "GET /artifact/project/artifact/experiment HTTP/1.1" 200 -
+[2022-10-22 18:59:48,477]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:48] "GET /artifact/project/artifact/data_ingestion HTTP/1.1" 200 -
+[2022-10-22 18:59:54,724]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:54] "GET /artifact/project/artifact/model_trainer HTTP/1.1" 200 -
+[2022-10-22 18:59:55,778]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:55] "GET /artifact/project/artifact/model_trainer/2022-10-22-18-32-27 HTTP/1.1" 200 -
+[2022-10-22 18:59:56,867]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 18:59:56] "GET /artifact/project/artifact/model_trainer/2022-10-22-18-32-27/trained_model HTTP/1.1" 200 -
+[2022-10-22 19:00:02,501]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 19:00:02] "GET /artifact/project/artifact/model_trainer/2022-10-22-18-32-27 HTTP/1.1" 200 -
+[2022-10-22 19:00:03,451]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 19:00:03] "GET /artifact/project/artifact/model_trainer/2022-10-22-18-32-27/trained_model HTTP/1.1" 200 -
+[2022-10-22 19:00:15,113]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 19:00:15] "GET /saved_models HTTP/1.1" 200 -
+[2022-10-22 19:00:18,599]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2022-10-22 19:00:18,599]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2022-10-22 19:00:18,599]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2022-10-22 19:00:18,599]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2022-10-22 19:00:18,599]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2022-10-22 19:00:18,600]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2022-10-22 19:00:21,231]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2022-10-22 19:00:21,447]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2022-10-22 19:00:21,769]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-22 19:00:21,769]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-22 19:00:21,769]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-22 19:00:21,770]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 19:00:21] "GET /predict HTTP/1.1" 200 -
+[2022-10-22 19:01:52,375]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2022-10-22 19:01:52,375]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2022-10-22 19:01:52,375]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2022-10-22 19:01:52,375]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2022-10-22 19:01:52,375]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2022-10-22 19:01:52,376]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2022-10-22 19:01:54,889]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2022-10-22 19:01:55,112]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2022-10-22 19:01:55,403]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-22 19:01:55,403]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-22 19:01:55,403]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-22 19:01:55,405]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 19:01:55] "POST /predict HTTP/1.1" 200 -
+[2022-10-22 19:02:02,295]^;INFO^;224^;_internal.py^;_log()^;192.168.157.120 - - [22/Oct/2022 19:02:02] "GET / HTTP/1.1" 200 -

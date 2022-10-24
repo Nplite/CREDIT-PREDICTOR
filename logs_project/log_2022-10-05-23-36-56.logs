@@ -1,0 +1,40 @@
+[2022-10-05 23:36:57,877]^;WARNING^;224^;_internal.py^;_log()^; * Debugger is active!
+[2022-10-05 23:36:57,883]^;INFO^;224^;_internal.py^;_log()^; * Debugger PIN: 541-933-771
+[2022-10-05 23:38:24,621]^;INFO^;224^;_internal.py^;_log()^;192.168.115.120 - - [05/Oct/2022 23:38:24] "GET / HTTP/1.1" 200 -
+[2022-10-05 23:38:24,933]^;INFO^;224^;_internal.py^;_log()^;192.168.115.120 - - [05/Oct/2022 23:38:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2022-10-05 23:39:14,761]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:14] "GET / HTTP/1.1" 200 -
+[2022-10-05 23:39:15,213]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:15] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2022-10-05 23:39:23,244]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:23] "GET /logs HTTP/1.1" 200 -
+[2022-10-05 23:39:26,441]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:26] "GET /artifact HTTP/1.1" 200 -
+[2022-10-05 23:39:27,491]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:27] "GET /artifact/project/artifact HTTP/1.1" 200 -
+[2022-10-05 23:39:31,641]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:31] "GET /saved_models HTTP/1.1" 200 -
+[2022-10-05 23:39:33,073]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:33] "GET /saved_models HTTP/1.1" 200 -
+[2022-10-05 23:39:33,239]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:33] "GET /saved_models HTTP/1.1" 200 -
+[2022-10-05 23:39:34,382]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:34] "GET /saved_models HTTP/1.1" 200 -
+[2022-10-05 23:39:35,260]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2022-10-05 23:39:35,260]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2022-10-05 23:39:35,260]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2022-10-05 23:39:35,260]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2022-10-05 23:39:35,260]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2022-10-05 23:39:35,260]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2022-10-05 23:39:35,269]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:35] "[35m[1mGET /predict HTTP/1.1[0m" 500 -
+[2022-10-05 23:39:35,341]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:35] "GET /predict?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+[2022-10-05 23:39:35,351]^;INFO^;224^;_internal.py^;_log()^;127.0.0.1 - - [05/Oct/2022 23:39:35] "GET /predict?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+[2022-10-05 23:39:40,167]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2022-10-05 23:39:40,167]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2022-10-05 23:39:40,179]^;INFO^;190^;__init__.py^;save_experiment()^;Experiment report saved in dataframe
+[2022-10-05 23:39:40,185]^;INFO^;211^;__init__.py^;get_experiments_status()^;Experiment history saved and called
+[2022-10-05 23:39:40,204]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2022-10-05 23:39:40,207]^;INFO^;224^;_internal.py^;_log()^;192.168.115.120 - - [05/Oct/2022 23:39:40] "GET /train HTTP/1.1" 200 -
+[2022-10-05 23:39:40,217]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-05 23:39:59,700]^;INFO^;224^;_internal.py^;_log()^;192.168.115.120 - - [05/Oct/2022 23:39:59] "GET / HTTP/1.1" 200 -
+[2022-10-05 23:40:03,272]^;INFO^;224^;_internal.py^;_log()^;192.168.115.120 - - [05/Oct/2022 23:40:03] "GET /saved_models HTTP/1.1" 200 -
+[2022-10-05 23:40:10,373]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2022-10-05 23:40:10,373]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2022-10-05 23:40:10,386]^;INFO^;211^;__init__.py^;get_experiments_status()^;Experiment history saved and called
+[2022-10-05 23:40:10,400]^;INFO^;224^;_internal.py^;_log()^;192.168.115.120 - - [05/Oct/2022 23:40:10] "GET /train HTTP/1.1" 200 -
+[2022-10-05 23:40:38,973]^;INFO^;224^;_internal.py^;_log()^;192.168.115.120 - - [05/Oct/2022 23:40:38] "GET /update_model_config HTTP/1.1" 200 -
+[2022-10-05 23:40:47,784]^;INFO^;224^;_internal.py^;_log()^;192.168.115.120 - - [05/Oct/2022 23:40:47] "GET /logs HTTP/1.1" 200 -
+[2022-10-05 23:40:50,001]^;INFO^;224^;_internal.py^;_log()^;192.168.115.120 - - [05/Oct/2022 23:40:50] "[33mGET /logs/logs_project/log_2022-10-05-23-36-52.logs HTTP/1.1[0m" 404 -
