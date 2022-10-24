@@ -1,5 +1,7 @@
 # ML_classifcation :Credit Default predictions-Banking Sector
 
+Deployment Link - https://mlp-creditcard123.herokuapp.com/ 
+
 
 ## Start Machine Learning project.
 
@@ -84,7 +86,7 @@ git init
 git add README.md
 git commit -m "first commit"
 git branch -M main
-git remote add origin https://github.com/Nplite/Credit-Card-Default-Prediction
+git remote add origin https://github.com/Nplite/CREDIT-PREDICTOR
 git push -u origin main
 
 ###

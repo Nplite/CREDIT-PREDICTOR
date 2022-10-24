@@ -1,0 +1,45 @@
+[2022-10-24 20:23:29,481]^;WARNING^;225^;_internal.py^;_log()^; * Debugger is active!
+[2022-10-24 20:23:29,486]^;INFO^;225^;_internal.py^;_log()^; * Debugger PIN: 391-186-116
+[2022-10-24 20:23:29,619]^;INFO^;225^;_internal.py^;_log()^; * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2022-10-24 20:23:51,310]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [24/Oct/2022 20:23:51] "GET / HTTP/1.1" 200 -
+[2022-10-24 20:23:51,829]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [24/Oct/2022 20:23:51] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2022-10-24 20:23:53,548]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2022-10-24 20:23:53,548]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2022-10-24 20:23:53,548]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2022-10-24 20:23:53,548]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2022-10-24 20:23:53,548]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2022-10-24 20:23:53,548]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2022-10-24 20:23:55,946]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2022-10-24 20:23:55,947]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2022-10-24 20:23:55,947]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2022-10-24 20:23:55,947]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2022-10-24 20:23:55,947]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2022-10-24 20:23:55,947]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2022-10-24 20:24:00,851]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2022-10-24 20:24:01,110]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2022-10-24 20:24:01,671]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-24 20:24:01,671]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-24 20:24:01,671]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-24 20:24:01,673]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [24/Oct/2022 20:24:01] "GET /predict HTTP/1.1" 200 -
+[2022-10-24 20:24:02,548]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2022-10-24 20:24:02,761]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2022-10-24 20:24:03,044]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-24 20:24:03,044]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-24 20:24:03,045]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2022-10-24 20:24:03,046]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [24/Oct/2022 20:24:03] "GET /predict HTTP/1.1" 200 -
