@@ -1,0 +1,98 @@
+[2023-02-06 00:55:24,713]^;WARNING^;225^;_internal.py^;_log()^; * Debugger is active!
+[2023-02-06 00:55:24,717]^;INFO^;225^;_internal.py^;_log()^; * Debugger PIN: 137-068-558
+[2023-02-06 00:55:24,851]^;INFO^;225^;_internal.py^;_log()^; * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+[2023-02-06 00:55:45,722]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 00:55:45] "GET / HTTP/1.1" 200 -
+[2023-02-06 00:55:46,058]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 00:55:46] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2023-02-06 00:55:48,861]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2023-02-06 00:55:48,862]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2023-02-06 00:55:48,864]^;INFO^;190^;__init__.py^;save_experiment()^;Experiment report saved in dataframe
+[2023-02-06 00:55:48,873]^;INFO^;211^;__init__.py^;get_experiments_status()^;Experiment history saved and called
+[2023-02-06 00:55:48,882]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2023-02-06 00:55:48,884]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 00:55:48] "GET /train HTTP/1.1" 200 -
+[2023-02-06 00:55:50,024]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 00:55:50,024]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2023-02-06 00:55:54,292]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 00:55:54,292]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2023-02-06 00:55:54,295]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-02-06 00:55:54,446]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 00:55:54,446]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2023-02-06 00:55:54,901]^;INFO^;172^;model_factory.py^;execute_grid_search_operation()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> f'Training LogisticRegression completed.' <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-02-06 00:56:15,004]^;INFO^;172^;model_factory.py^;execute_grid_search_operation()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> f'Training RandomForestClassifier completed.' <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+[2023-02-06 00:56:15,006]^;INFO^;43^;training.py^;initiate_model_trainer()^;Best model found on training data: GridSearchedBestModel(model_serial_number='module_1', model=RandomForestClassifier(min_samples_leaf=3), best_model=RandomForestClassifier(min_samples_leaf=6), best_parameters={'min_samples_leaf': 6}, best_score=0.8207142857142855)
+[2023-02-06 00:56:15,534]^;INFO^;76^;training.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Model trainer log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+[2023-02-06 00:57:46,258]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 00:57:46] "GET / HTTP/1.1" 200 -
+[2023-02-06 00:57:47,821]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2023-02-06 00:57:47,821]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2023-02-06 00:57:47,821]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2023-02-06 00:57:47,821]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2023-02-06 00:57:47,821]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2023-02-06 00:57:47,821]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2023-02-06 00:57:52,849]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-02-06 00:57:53,044]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-02-06 00:57:53,303]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 00:57:53,303]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 00:57:53,303]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 00:57:53,304]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 00:57:53] "GET /predict HTTP/1.1" 200 -
+[2023-02-06 00:58:37,345]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2023-02-06 00:58:37,345]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2023-02-06 00:58:37,345]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2023-02-06 00:58:37,345]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2023-02-06 00:58:37,345]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2023-02-06 00:58:37,345]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2023-02-06 00:58:42,413]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-02-06 00:58:42,608]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-02-06 00:58:42,881]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 00:58:42,881]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 00:58:42,881]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 00:58:42,882]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 00:58:42] "POST /predict HTTP/1.1" 200 -
+[2023-02-06 01:00:16,533]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 01:00:16] "GET / HTTP/1.1" 200 -
+[2023-02-06 01:00:20,867]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2023-02-06 01:00:20,868]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2023-02-06 01:00:20,875]^;INFO^;211^;__init__.py^;get_experiments_status()^;Experiment history saved and called
+[2023-02-06 01:00:20,879]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 01:00:20] "GET /train HTTP/1.1" 200 -
+[2023-02-06 01:00:31,922]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 01:00:31] "GET / HTTP/1.1" 200 -
+[2023-02-06 01:00:38,893]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 01:00:38] "GET /saved_models HTTP/1.1" 200 -
+[2023-02-06 01:00:41,618]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 01:00:41] "GET /artifact HTTP/1.1" 200 -
+[2023-02-06 01:01:19,907]^;INFO^;232^;__init__.py^;get_trainig_pipeline_config()^;Configuaraion: Training pipeline configured
+[2023-02-06 01:01:19,907]^;INFO^;19^;__init__.py^;__init__()^;Configuaraion initiated
+[2023-02-06 01:01:19,907]^;INFO^;60^;__init__.py^;get_data_ingestion_config()^;Configuaraion: Data ingestion_configured
+[2023-02-06 01:01:19,907]^;INFO^;94^;__init__.py^;get_data_validation_config()^;Configuaraion: Data validation configured
+[2023-02-06 01:01:19,907]^;INFO^;138^;__init__.py^;get_data_transformation_config()^;Configuaraion: Transformation configured
+[2023-02-06 01:01:19,907]^;INFO^;175^;__init__.py^;get_model_trainer_config()^;Configuaraion: Modeltrainign configured
+[2023-02-06 01:01:24,958]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-02-06 01:01:25,163]^;INFO^;42^;transformation.py^;get_data_transformer_object()^;Preprocessing object Pipeline(steps=[('imputer', SimpleImputer(strategy='median')),
+                ('scaler', StandardScaler())]) configured
+[2023-02-06 01:01:25,405]^;INFO^;108^;ingestion.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Ingestion log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 01:01:25,405]^;INFO^;144^;validation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Valdaition log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 01:01:25,405]^;INFO^;116^;transformation.py^;__del__()^;>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>Data Transformation log completed.<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<< 
+
+
+[2023-02-06 01:01:25,406]^;INFO^;225^;_internal.py^;_log()^;127.0.0.1 - - [06/Feb/2023 01:01:25] "GET /predict HTTP/1.1" 200 -

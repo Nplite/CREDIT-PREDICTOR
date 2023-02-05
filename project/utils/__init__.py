@@ -44,9 +44,9 @@ def save_numpy_array(file_path, array):
 def load_object(file_path):
     try:
         with open(file_path, 'rb') as file_obj:
-            # print(f"-------load_object----{file_path}------<<<<<<<<<<<---------")
-            # print(f"-------load_object----{file_obj}------<<<<<<<<<<<---------")
-            dill.load(file_obj)
+             print(f"-------load_object----{file_path}------<<<<<<<<<<<---------")
+             print(f"-------load_object----{file_obj}------<<<<<<<<<<<---------")
+        dill.load(file_obj)
     except Exception as e:
         raise ProjectException(e, sys) from e
     
